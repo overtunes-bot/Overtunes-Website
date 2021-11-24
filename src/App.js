@@ -2,7 +2,7 @@ import './index.css';
 import 'react-router-dom';
 import NavBar from './components/navBar';
 import Footer from './components/footer';
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Home from './pages/home';
 import Music from './pages/commands/music';
 import Utils from './pages/commands/utils';
@@ -13,7 +13,7 @@ import NotFound from './pages/404';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -25,6 +25,6 @@ export default function App() {
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
