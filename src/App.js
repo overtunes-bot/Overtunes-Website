@@ -10,6 +10,7 @@ import Playlist from './pages/commands/playlist';
 import Settings from './pages/commands/settings';
 import Filter from './pages/commands/filter';
 import NotFound from './pages/404';
+import Privacy from './pages/privacy';
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
         <Route path="/commands/playlist" element={<Playlist />}></Route>
         <Route path="/commands/settings" element={<Settings />}></Route>
         <Route path="/commands/filter" element={<Filter />}></Route>
+        <Route path="/privacy" element={<Privacy />}></Route>
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
