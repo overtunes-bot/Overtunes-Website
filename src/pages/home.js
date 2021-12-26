@@ -65,7 +65,7 @@ function Home() {
 
             <div className="hidden lg:flex mt-6 p-16 justify-center space-x-5 text-center">
                 <div className="border-4 p-10 rounded-3xl">
-                    <p className="text-white text-3xl font-marryweather">700+ Servers</p>
+                    <p className="text-white text-3xl font-marryweather">1000+ Servers</p>
                 </div>
                 <div className="border-4 p-10 rounded-3xl">
                     <p className="text-white text-3xl font-marryweather">100.000+ Users</p>
